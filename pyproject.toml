@@ -1,0 +1,9 @@
+[project]
+name = "contacts-sql-py"
+version = "0.1.0"
+description = "Query macOS Apple Contacts database via SQLite"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+contacts = "contacts:main"
